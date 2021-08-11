@@ -1,0 +1,5 @@
+python
+magenta
+ipykernel
+jupyter
+ipython
