@@ -1,0 +1,26 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.7.9",
+    "heartbeatAt": "2022-02-13T05:01:12.786447",
+    "startedAt": "2022-02-13T05:01:09.984189",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "-f",
+        "C:\\Users\\luis_\\AppData\\Roaming\\jupyter\\runtime\\kernel-e374a7f2-fe56-4463-9f26-612c9426ccb9.json"
+    ],
+    "state": "running",
+    "program": "Documents/GitHub/data-science-projects/house-price-prediction/Models/tensorflow/tf_model_wrangling.ipynb",
+    "root": "C:/Users/luis_/Documents/GitHub/data-science-projects",
+    "git": {
+        "remote": "https://github.com/valencia21/data-science-projects.git",
+        "commit": "2e1ae5f2539b924a347f3d45d0460c46e95c819e"
+    },
+    "email": "luis_costigan@hotmail.co.uk",
+    "host": "Zephyrus-G15",
+    "username": "luis_",
+    "executable": "C:\\Users\\luis_\\anaconda3\\envs\\tf-optuna2\\python.exe"
+}
