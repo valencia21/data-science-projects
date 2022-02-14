@@ -1,0 +1,147 @@
+2022-02-14 08:04:29,763 INFO    MainThread:24112 [internal.py:wandb_internal():89] W&B internal server running at pid: 24112, started at: 2022-02-14 08:04:29.763528
+2022-02-14 08:04:29,765 INFO    WriterThread:24112 [datastore.py:open_for_write():77] open: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/run-2ozpa34d.wandb
+2022-02-14 08:04:29,765 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: check_version
+2022-02-14 08:04:29,767 DEBUG   SenderThread:24112 [sender.py:send():235] send: header
+2022-02-14 08:04:29,767 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: check_version
+2022-02-14 08:04:29,918 DEBUG   SenderThread:24112 [sender.py:send():235] send: run
+2022-02-14 08:04:30,239 INFO    SenderThread:24112 [dir_watcher.py:__init__():169] watching files in: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/files
+2022-02-14 08:04:30,239 INFO    SenderThread:24112 [sender.py:_start_run_threads():809] run started: 2ozpa34d with start time 1644825869
+2022-02-14 08:04:30,239 DEBUG   SenderThread:24112 [sender.py:send():235] send: summary
+2022-02-14 08:04:30,240 INFO    SenderThread:24112 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:04:30,240 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: run_start
+2022-02-14 08:04:31,242 INFO    Thread-8  :24112 [dir_watcher.py:_on_file_created():217] file/dir created: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/files/wandb-summary.json
+2022-02-14 08:04:31,768 DEBUG   HandlerThread:24112 [meta.py:__init__():36] meta init
+2022-02-14 08:04:31,768 DEBUG   HandlerThread:24112 [meta.py:__init__():50] meta init done
+2022-02-14 08:04:31,768 DEBUG   HandlerThread:24112 [meta.py:probe():210] probe
+2022-02-14 08:04:31,770 DEBUG   HandlerThread:24112 [meta.py:_setup_git():200] setup git
+2022-02-14 08:04:31,794 DEBUG   HandlerThread:24112 [meta.py:_setup_git():207] setup git done
+2022-02-14 08:04:31,794 DEBUG   HandlerThread:24112 [meta.py:_save_pip():54] save pip
+2022-02-14 08:04:31,795 DEBUG   HandlerThread:24112 [meta.py:_save_pip():68] save pip done
+2022-02-14 08:04:31,795 DEBUG   HandlerThread:24112 [meta.py:probe():248] probe done
+2022-02-14 08:04:31,799 DEBUG   SenderThread:24112 [sender.py:send():235] send: files
+2022-02-14 08:04:31,799 INFO    SenderThread:24112 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-02-14 08:04:31,804 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-14 08:04:31,805 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: stop_status
+2022-02-14 08:04:32,242 INFO    Thread-8  :24112 [dir_watcher.py:_on_file_created():217] file/dir created: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/files/output.log
+2022-02-14 08:04:32,242 INFO    Thread-8  :24112 [dir_watcher.py:_on_file_created():217] file/dir created: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/files/requirements.txt
+2022-02-14 08:04:32,242 INFO    Thread-8  :24112 [dir_watcher.py:_on_file_created():217] file/dir created: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/files/wandb-metadata.json
+2022-02-14 08:04:32,632 INFO    Thread-11 :24112 [upload_job.py:push():137] Uploaded file /tmp/tmpzs_rpnj3wandb/1xbcfenf-wandb-metadata.json
+2022-02-14 08:04:34,242 INFO    Thread-8  :24112 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/files/output.log
+2022-02-14 08:04:47,150 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-14 08:04:47,150 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: stop_status
+2022-02-14 08:04:59,833 DEBUG   SenderThread:24112 [sender.py:send():235] send: stats
+2022-02-14 08:05:02,442 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-14 08:05:02,442 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: stop_status
+2022-02-14 08:05:10,970 DEBUG   SenderThread:24112 [sender.py:send():235] send: telemetry
+2022-02-14 08:05:10,971 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:05:10,971 DEBUG   SenderThread:24112 [sender.py:send():235] send: exit
+2022-02-14 08:05:10,971 INFO    SenderThread:24112 [sender.py:send_exit():371] handling exit code: 0
+2022-02-14 08:05:10,971 INFO    SenderThread:24112 [sender.py:send_exit():373] handling runtime: 40
+2022-02-14 08:05:10,972 INFO    SenderThread:24112 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:05:10,972 INFO    SenderThread:24112 [sender.py:send_exit():379] send defer
+2022-02-14 08:05:10,972 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:05:10,973 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: defer
+2022-02-14 08:05:10,973 INFO    HandlerThread:24112 [handler.py:handle_request_defer():154] handle defer: 0
+2022-02-14 08:05:10,973 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: defer
+2022-02-14 08:05:10,974 INFO    SenderThread:24112 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-02-14 08:05:10,974 INFO    SenderThread:24112 [sender.py:transition_state():392] send defer: 1
+2022-02-14 08:05:10,974 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: defer
+2022-02-14 08:05:10,974 INFO    HandlerThread:24112 [handler.py:handle_request_defer():154] handle defer: 1
+2022-02-14 08:05:11,055 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: defer
+2022-02-14 08:05:11,055 INFO    SenderThread:24112 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-02-14 08:05:11,055 INFO    SenderThread:24112 [sender.py:transition_state():392] send defer: 2
+2022-02-14 08:05:11,055 DEBUG   SenderThread:24112 [sender.py:send():235] send: stats
+2022-02-14 08:05:11,056 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: defer
+2022-02-14 08:05:11,056 INFO    HandlerThread:24112 [handler.py:handle_request_defer():154] handle defer: 2
+2022-02-14 08:05:11,056 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: defer
+2022-02-14 08:05:11,056 INFO    SenderThread:24112 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-02-14 08:05:11,056 INFO    SenderThread:24112 [sender.py:transition_state():392] send defer: 3
+2022-02-14 08:05:11,056 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: defer
+2022-02-14 08:05:11,056 INFO    HandlerThread:24112 [handler.py:handle_request_defer():154] handle defer: 3
+2022-02-14 08:05:11,056 DEBUG   SenderThread:24112 [sender.py:send():235] send: summary
+2022-02-14 08:05:11,057 INFO    SenderThread:24112 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:05:11,057 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: defer
+2022-02-14 08:05:11,057 INFO    SenderThread:24112 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-02-14 08:05:11,057 INFO    SenderThread:24112 [sender.py:transition_state():392] send defer: 4
+2022-02-14 08:05:11,057 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: defer
+2022-02-14 08:05:11,057 INFO    HandlerThread:24112 [handler.py:handle_request_defer():154] handle defer: 4
+2022-02-14 08:05:11,057 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: defer
+2022-02-14 08:05:11,058 INFO    SenderThread:24112 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-02-14 08:05:11,079 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:05:11,255 INFO    Thread-8  :24112 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/files/output.log
+2022-02-14 08:05:11,255 INFO    Thread-8  :24112 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/files/wandb-summary.json
+2022-02-14 08:05:11,371 INFO    SenderThread:24112 [sender.py:transition_state():392] send defer: 5
+2022-02-14 08:05:11,371 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:05:11,372 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: defer
+2022-02-14 08:05:11,372 INFO    HandlerThread:24112 [handler.py:handle_request_defer():154] handle defer: 5
+2022-02-14 08:05:11,372 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: defer
+2022-02-14 08:05:11,372 INFO    SenderThread:24112 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-02-14 08:05:11,372 INFO    SenderThread:24112 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-14 08:05:11,473 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:05:12,255 INFO    Thread-8  :24112 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/files/config.yaml
+2022-02-14 08:05:12,256 INFO    SenderThread:24112 [dir_watcher.py:finish():313] scan: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/files
+2022-02-14 08:05:12,256 INFO    SenderThread:24112 [dir_watcher.py:finish():327] scan save: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/files/output.log output.log
+2022-02-14 08:05:12,256 INFO    SenderThread:24112 [dir_watcher.py:finish():327] scan save: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/files/config.yaml config.yaml
+2022-02-14 08:05:12,257 INFO    SenderThread:24112 [dir_watcher.py:finish():327] scan save: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/files/wandb-metadata.json wandb-metadata.json
+2022-02-14 08:05:12,259 INFO    SenderThread:24112 [dir_watcher.py:finish():327] scan save: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/files/requirements.txt requirements.txt
+2022-02-14 08:05:12,263 INFO    SenderThread:24112 [dir_watcher.py:finish():327] scan save: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/files/wandb-summary.json wandb-summary.json
+2022-02-14 08:05:12,263 INFO    SenderThread:24112 [sender.py:transition_state():392] send defer: 6
+2022-02-14 08:05:12,267 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:05:12,271 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: defer
+2022-02-14 08:05:12,271 INFO    HandlerThread:24112 [handler.py:handle_request_defer():154] handle defer: 6
+2022-02-14 08:05:12,271 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: defer
+2022-02-14 08:05:12,272 INFO    SenderThread:24112 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-02-14 08:05:12,272 INFO    SenderThread:24112 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-14 08:05:12,370 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:05:12,370 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:05:12,472 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:05:12,472 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:05:12,574 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:05:12,576 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:05:12,682 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:05:12,683 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:05:12,784 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:05:12,785 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:05:12,887 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:05:12,888 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:05:12,990 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:05:12,990 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:05:13,006 INFO    Thread-13 :24112 [upload_job.py:push():137] Uploaded file /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/files/config.yaml
+2022-02-14 08:05:13,044 INFO    Thread-12 :24112 [upload_job.py:push():137] Uploaded file /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/files/output.log
+2022-02-14 08:05:13,062 INFO    Thread-15 :24112 [upload_job.py:push():137] Uploaded file /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/files/wandb-summary.json
+2022-02-14 08:05:13,070 INFO    Thread-14 :24112 [upload_job.py:push():137] Uploaded file /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/files/requirements.txt
+2022-02-14 08:05:13,092 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:05:13,092 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:05:13,194 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:05:13,194 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:05:13,271 INFO    Thread-7  :24112 [sender.py:transition_state():392] send defer: 7
+2022-02-14 08:05:13,271 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: defer
+2022-02-14 08:05:13,272 INFO    HandlerThread:24112 [handler.py:handle_request_defer():154] handle defer: 7
+2022-02-14 08:05:13,272 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: defer
+2022-02-14 08:05:13,272 INFO    SenderThread:24112 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-02-14 08:05:13,296 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:05:13,647 INFO    SenderThread:24112 [sender.py:transition_state():392] send defer: 8
+2022-02-14 08:05:13,648 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:05:13,648 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: defer
+2022-02-14 08:05:13,649 INFO    HandlerThread:24112 [handler.py:handle_request_defer():154] handle defer: 8
+2022-02-14 08:05:13,649 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: defer
+2022-02-14 08:05:13,649 INFO    SenderThread:24112 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-02-14 08:05:13,649 INFO    SenderThread:24112 [sender.py:transition_state():392] send defer: 9
+2022-02-14 08:05:13,650 DEBUG   SenderThread:24112 [sender.py:send():235] send: final
+2022-02-14 08:05:13,650 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: defer
+2022-02-14 08:05:13,650 DEBUG   SenderThread:24112 [sender.py:send():235] send: footer
+2022-02-14 08:05:13,650 INFO    HandlerThread:24112 [handler.py:handle_request_defer():154] handle defer: 9
+2022-02-14 08:05:13,651 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: defer
+2022-02-14 08:05:13,651 INFO    SenderThread:24112 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-02-14 08:05:13,750 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:05:13,751 DEBUG   SenderThread:24112 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:05:13,751 INFO    SenderThread:24112 [file_pusher.py:join():182] waiting for file pusher
+2022-02-14 08:05:14,389 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: get_summary
+2022-02-14 08:05:14,390 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: sampled_history
+2022-02-14 08:05:14,391 DEBUG   HandlerThread:24112 [handler.py:handle_request():131] handle_request: shutdown
+2022-02-14 08:05:14,391 INFO    HandlerThread:24112 [handler.py:finish():739] shutting down handler
+2022-02-14 08:05:14,650 INFO    WriterThread:24112 [datastore.py:close():281] close: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_080423-2ozpa34d/run-2ozpa34d.wandb
+2022-02-14 08:05:15,388 INFO    SenderThread:24112 [sender.py:finish():1075] shutting down sender
+2022-02-14 08:05:15,388 INFO    SenderThread:24112 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-14 08:05:15,388 INFO    SenderThread:24112 [file_pusher.py:join():182] waiting for file pusher
+2022-02-14 08:05:15,390 INFO    MainThread:24112 [internal.py:handle_exit():79] Internal process exited

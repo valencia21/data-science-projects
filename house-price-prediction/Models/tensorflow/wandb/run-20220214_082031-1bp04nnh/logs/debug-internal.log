@@ -1,0 +1,824 @@
+2022-02-14 08:20:37,438 INFO    MainThread:787 [internal.py:wandb_internal():89] W&B internal server running at pid: 787, started at: 2022-02-14 08:20:37.437821
+2022-02-14 08:20:37,442 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: check_version
+2022-02-14 08:20:37,443 INFO    WriterThread:787 [datastore.py:open_for_write():77] open: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/run-1bp04nnh.wandb
+2022-02-14 08:20:37,444 DEBUG   SenderThread:787 [sender.py:send():235] send: header
+2022-02-14 08:20:37,444 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: check_version
+2022-02-14 08:20:38,473 DEBUG   SenderThread:787 [sender.py:send():235] send: run
+2022-02-14 08:20:38,826 INFO    SenderThread:787 [dir_watcher.py:__init__():169] watching files in: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files
+2022-02-14 08:20:38,826 INFO    SenderThread:787 [sender.py:_start_run_threads():809] run started: 1bp04nnh with start time 1644826836
+2022-02-14 08:20:38,826 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:38,826 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:38,826 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: run_start
+2022-02-14 08:20:39,842 INFO    Thread-8  :787 [dir_watcher.py:_on_file_created():217] file/dir created: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:20:40,441 DEBUG   HandlerThread:787 [meta.py:__init__():36] meta init
+2022-02-14 08:20:40,441 DEBUG   HandlerThread:787 [meta.py:__init__():50] meta init done
+2022-02-14 08:20:40,442 DEBUG   HandlerThread:787 [meta.py:probe():210] probe
+2022-02-14 08:20:40,444 DEBUG   HandlerThread:787 [meta.py:_setup_git():200] setup git
+2022-02-14 08:20:40,475 DEBUG   HandlerThread:787 [meta.py:_setup_git():207] setup git done
+2022-02-14 08:20:40,475 DEBUG   HandlerThread:787 [meta.py:_save_pip():54] save pip
+2022-02-14 08:20:40,475 DEBUG   HandlerThread:787 [meta.py:_save_pip():68] save pip done
+2022-02-14 08:20:40,475 DEBUG   HandlerThread:787 [meta.py:probe():248] probe done
+2022-02-14 08:20:40,478 DEBUG   SenderThread:787 [sender.py:send():235] send: files
+2022-02-14 08:20:40,479 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-02-14 08:20:40,484 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-14 08:20:40,484 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: stop_status
+2022-02-14 08:20:40,541 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: get_summary
+2022-02-14 08:20:40,797 DEBUG   SenderThread:787 [sender.py:send():235] send: files
+2022-02-14 08:20:40,797 INFO    SenderThread:787 [sender.py:_save_file():944] saving file model-best.h5 with policy live
+2022-02-14 08:20:40,841 INFO    Thread-8  :787 [dir_watcher.py:_on_file_created():217] file/dir created: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/output.log
+2022-02-14 08:20:40,842 INFO    Thread-8  :787 [dir_watcher.py:_on_file_created():217] file/dir created: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/requirements.txt
+2022-02-14 08:20:40,842 INFO    Thread-8  :787 [dir_watcher.py:_on_file_created():217] file/dir created: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-metadata.json
+2022-02-14 08:20:41,516 INFO    Thread-11 :787 [upload_job.py:push():137] Uploaded file /tmp/tmpoh4hdr1twandb/6yuqp5zc-wandb-metadata.json
+2022-02-14 08:20:42,699 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:42,699 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:42,700 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:42,700 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:42,700 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:42,700 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:42,701 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:42,828 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:42,829 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:42,831 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:42,831 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:42,832 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:42,832 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:42,832 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:42,842 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:20:42,843 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/output.log
+2022-02-14 08:20:42,843 INFO    Thread-8  :787 [dir_watcher.py:_on_file_created():217] file/dir created: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:20:43,116 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:43,117 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:43,117 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:43,117 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:43,118 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:43,119 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:43,119 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:43,499 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:43,500 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:43,500 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:43,500 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:43,500 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:43,501 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:43,502 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:43,670 INFO    Thread-12 :787 [upload_job.py:push():137] Uploaded file /tmp/tmpoh4hdr1twandb/2cfbat1b-model-best.h5
+2022-02-14 08:20:43,843 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:20:43,843 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:20:43,939 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:43,940 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:43,940 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:43,941 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:43,941 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:43,941 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:43,942 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:44,320 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:44,321 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:44,321 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:44,322 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:44,323 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:44,325 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:44,325 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:44,735 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:44,735 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:44,736 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:44,741 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:44,741 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:44,742 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:44,742 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:44,843 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:20:44,843 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:20:44,844 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/output.log
+2022-02-14 08:20:45,135 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:45,135 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:45,137 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:45,137 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:45,138 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:45,138 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:45,138 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:45,543 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:45,544 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:45,544 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:45,544 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:45,545 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:45,547 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:45,548 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:45,844 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:20:45,844 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:20:45,986 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:45,986 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:45,987 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:45,987 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:45,988 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:45,991 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:45,992 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:46,391 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:46,391 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:46,392 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:46,392 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:46,392 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:46,396 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:46,397 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:46,792 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:46,792 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:46,793 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:46,793 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:46,794 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:46,795 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:46,795 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:46,844 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:20:46,844 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:20:47,206 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:47,206 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:47,208 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:47,210 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:47,211 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:47,211 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:47,212 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:47,608 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:47,609 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:47,609 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:47,609 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:47,610 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:47,612 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:47,613 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:47,844 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:20:47,845 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:20:48,016 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:48,016 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:48,017 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:48,019 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:48,019 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:48,022 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:48,023 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:48,424 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:48,425 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:48,425 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:48,426 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:48,426 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:48,426 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:48,426 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:48,833 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:48,833 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:48,833 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:48,835 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:48,836 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:48,840 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:48,840 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:48,845 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:20:48,845 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:20:49,215 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:49,216 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:49,218 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:49,218 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:49,218 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:49,222 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:49,223 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:49,611 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:49,611 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:49,612 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:49,613 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:49,614 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:49,614 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:49,614 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:49,845 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:20:49,845 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:20:50,048 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:50,049 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:50,049 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:50,050 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:50,051 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:50,052 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:50,053 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:50,452 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:50,452 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:50,453 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:50,457 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:50,458 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:50,458 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:50,458 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:50,845 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:20:50,846 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:20:50,876 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:50,876 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:50,877 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:50,877 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:50,878 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:50,881 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:50,881 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:51,293 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:51,293 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:51,295 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:51,295 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:51,295 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:51,295 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:51,296 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:51,683 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:51,683 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:51,684 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:51,684 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:51,685 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:51,687 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:51,688 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:51,846 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:20:51,846 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:20:52,094 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:52,095 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:52,095 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:52,097 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:52,098 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:52,099 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:52,100 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:52,517 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:52,518 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:52,518 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:52,521 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:52,522 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:52,524 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:52,524 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:52,846 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:20:52,846 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:20:52,897 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:52,898 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:52,898 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:52,900 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:52,900 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:52,902 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:52,903 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:53,313 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:53,314 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:53,316 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:53,318 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:53,318 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:53,319 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:53,319 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:53,707 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:53,707 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:53,708 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:53,709 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:53,710 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:53,710 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:53,711 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:53,847 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:20:53,847 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:20:54,098 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:54,098 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:54,099 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:54,099 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:54,099 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:54,101 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:54,102 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:54,497 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:54,498 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:54,498 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:54,500 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:54,500 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:54,500 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:54,501 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:54,847 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:20:54,847 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:20:54,922 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:54,922 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:54,922 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:54,924 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:54,925 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:54,928 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:54,928 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:55,322 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:55,323 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:55,324 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:55,324 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:55,325 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:55,327 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:55,327 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:55,749 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:55,749 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:55,749 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:55,750 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:55,750 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:55,751 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:55,752 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:55,802 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-14 08:20:55,802 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: stop_status
+2022-02-14 08:20:55,848 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:20:55,848 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:20:56,159 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:56,159 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:56,160 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:56,160 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:56,160 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:56,162 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:56,162 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:56,537 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:56,537 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:56,537 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:56,538 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:56,538 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:56,541 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:56,542 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:56,849 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:20:56,849 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:20:56,919 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:56,919 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:56,920 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:56,920 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:56,921 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:56,921 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:56,921 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:57,314 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:57,314 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:57,315 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:57,577 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:57,578 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:57,580 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:57,580 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:57,582 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:57,582 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:57,583 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:57,849 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:20:57,849 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:20:58,085 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:58,086 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:58,086 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:58,086 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:58,086 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:58,092 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:58,092 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:58,511 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:58,511 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:58,512 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:58,692 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:58,692 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:58,692 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:58,693 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:58,693 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:58,695 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:58,695 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:58,849 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:20:58,849 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:20:59,253 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:59,254 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:59,254 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:59,256 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:59,256 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:59,257 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:59,258 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:59,663 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:59,663 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:59,665 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:59,850 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:20:59,850 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:20:59,908 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:20:59,908 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:59,910 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:59,910 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:59,911 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:20:59,912 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:20:59,912 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:00,392 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:00,392 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:00,392 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:00,850 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:00,850 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:21:00,868 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:00,868 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:00,869 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:00,869 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:00,871 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:00,871 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:00,871 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:01,247 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:01,248 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:01,248 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:01,479 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:01,479 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:01,480 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:01,482 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:01,482 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:01,483 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:01,483 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:01,850 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:01,851 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:21:01,949 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:01,949 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:01,951 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:02,402 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:02,403 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:02,403 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:02,403 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:02,405 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:02,405 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:02,406 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:02,782 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:02,783 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:02,783 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:02,851 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:02,851 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:21:03,019 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:03,019 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:03,019 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:03,020 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:03,021 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:03,021 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:03,022 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:03,467 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:03,467 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:03,468 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:03,851 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:03,851 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:21:03,917 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:03,918 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:03,918 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:03,920 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:03,920 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:03,923 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:03,923 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:04,293 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:04,293 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:04,294 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:04,524 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:04,525 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:04,525 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:04,525 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:04,526 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:04,536 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:04,536 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:04,852 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:04,852 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:21:05,015 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:05,016 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:05,016 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:05,017 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:05,018 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:05,021 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:05,022 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:05,438 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:05,438 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:05,439 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:05,439 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:05,439 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:05,444 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:05,444 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:05,838 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:05,838 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:05,838 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:05,852 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:05,852 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:21:06,070 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:06,071 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:06,072 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:06,072 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:06,074 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:06,074 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:06,074 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:06,590 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:06,591 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:06,592 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:06,595 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:06,595 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:06,597 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:06,597 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:06,852 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:06,853 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:21:07,047 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:07,047 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:07,048 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:07,206 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:07,206 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:07,207 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:07,207 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:07,208 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:07,209 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:07,209 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:07,780 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:07,780 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:07,781 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:07,853 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:07,853 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:21:08,296 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:08,297 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:08,298 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:08,298 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:08,300 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:08,300 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:08,300 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:08,498 DEBUG   SenderThread:787 [sender.py:send():235] send: stats
+2022-02-14 08:21:08,645 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:08,645 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:08,646 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:08,780 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:08,780 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:08,781 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:08,781 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:08,781 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:08,785 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:08,785 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:08,853 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:08,853 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:21:09,394 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:09,395 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:09,395 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:09,795 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:09,796 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:09,796 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:09,796 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:09,798 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:09,798 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:09,799 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:09,853 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:09,854 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:21:10,158 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:10,158 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:10,159 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:10,159 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:10,159 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:10,163 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:10,163 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:10,510 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:10,511 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:10,511 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:10,511 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:10,512 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:10,514 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:10,514 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:10,854 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:10,854 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:21:10,922 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:10,922 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:10,923 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:11,126 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:11,126 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:11,127 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:11,127 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:11,127 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:11,131 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:11,132 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:11,136 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-14 08:21:11,137 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: stop_status
+2022-02-14 08:21:11,611 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:11,611 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:11,612 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:11,854 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:11,855 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:21:12,132 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:12,132 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:12,133 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:12,372 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:12,372 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:12,373 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:12,373 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:12,373 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:12,374 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:12,374 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:12,813 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:12,813 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:12,814 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:12,855 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:12,855 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:21:13,222 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:13,222 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:13,224 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:13,224 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:13,225 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:13,225 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:13,225 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:13,649 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:13,650 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:13,650 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:13,856 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:13,856 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:21:13,972 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:13,973 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:13,973 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:14,128 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:14,128 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:14,129 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:14,856 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:14,919 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:14,919 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:14,920 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:15,123 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:15,124 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:15,124 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:15,125 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:15,125 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:15,129 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:15,130 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:15,518 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:15,518 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:15,520 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:15,856 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:15,856 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:21:15,968 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:15,968 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:15,969 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:15,969 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:15,971 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:15,975 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:15,975 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:16,359 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:16,359 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:16,359 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:16,585 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:16,586 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:16,586 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:16,586 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:16,589 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:16,589 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:16,589 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:16,857 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:16,857 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:21:17,014 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:17,014 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:17,014 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:17,500 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:17,500 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:17,501 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:17,634 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:17,634 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:17,636 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:17,857 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:17,857 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:21:18,210 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:18,210 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:18,210 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:18,211 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:18,212 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:18,216 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:18,217 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:18,597 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:18,598 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:18,598 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:18,763 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:18,764 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:18,764 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:18,765 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:18,765 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:18,767 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:18,767 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:18,857 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:18,858 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:21:19,240 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:19,240 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:19,241 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:19,759 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:19,760 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:19,761 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:19,858 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:19,858 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:21:19,948 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:19,948 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:19,949 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:19,949 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:19,949 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:19,950 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:19,951 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:20,352 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:20,353 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:20,353 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:20,353 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:20,354 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:20,354 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:20,354 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:20,522 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:20,523 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:20,524 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:20,576 DEBUG   SenderThread:787 [sender.py:send():235] send: history
+2022-02-14 08:21:20,577 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:20,577 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:20,577 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:20,577 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:20,578 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:20,578 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:20,596 DEBUG   SenderThread:787 [sender.py:send():235] send: files
+2022-02-14 08:21:20,597 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: get_summary
+2022-02-14 08:21:20,597 INFO    SenderThread:787 [sender.py:_save_file():944] saving file model-best.h5 with policy live
+2022-02-14 08:21:20,858 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:20,859 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5
+2022-02-14 08:21:21,149 DEBUG   SenderThread:787 [sender.py:send():235] send: telemetry
+2022-02-14 08:21:21,150 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:21,150 DEBUG   SenderThread:787 [sender.py:send():235] send: exit
+2022-02-14 08:21:21,150 INFO    SenderThread:787 [sender.py:send_exit():371] handling exit code: 0
+2022-02-14 08:21:21,150 INFO    SenderThread:787 [sender.py:send_exit():373] handling runtime: 42
+2022-02-14 08:21:21,151 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:21,151 INFO    SenderThread:787 [sender.py:send_exit():379] send defer
+2022-02-14 08:21:21,151 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:21,151 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: defer
+2022-02-14 08:21:21,152 INFO    HandlerThread:787 [handler.py:handle_request_defer():154] handle defer: 0
+2022-02-14 08:21:21,152 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: defer
+2022-02-14 08:21:21,152 INFO    SenderThread:787 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-02-14 08:21:21,152 INFO    SenderThread:787 [sender.py:transition_state():392] send defer: 1
+2022-02-14 08:21:21,152 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: defer
+2022-02-14 08:21:21,153 INFO    HandlerThread:787 [handler.py:handle_request_defer():154] handle defer: 1
+2022-02-14 08:21:21,227 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: defer
+2022-02-14 08:21:21,228 INFO    SenderThread:787 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-02-14 08:21:21,228 INFO    SenderThread:787 [sender.py:transition_state():392] send defer: 2
+2022-02-14 08:21:21,228 DEBUG   SenderThread:787 [sender.py:send():235] send: stats
+2022-02-14 08:21:21,228 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: defer
+2022-02-14 08:21:21,228 INFO    HandlerThread:787 [handler.py:handle_request_defer():154] handle defer: 2
+2022-02-14 08:21:21,229 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: defer
+2022-02-14 08:21:21,229 INFO    SenderThread:787 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-02-14 08:21:21,229 INFO    SenderThread:787 [sender.py:transition_state():392] send defer: 3
+2022-02-14 08:21:21,229 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: defer
+2022-02-14 08:21:21,229 INFO    HandlerThread:787 [handler.py:handle_request_defer():154] handle defer: 3
+2022-02-14 08:21:21,229 DEBUG   SenderThread:787 [sender.py:send():235] send: summary
+2022-02-14 08:21:21,230 INFO    SenderThread:787 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-14 08:21:21,230 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: defer
+2022-02-14 08:21:21,230 INFO    SenderThread:787 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-02-14 08:21:21,230 INFO    SenderThread:787 [sender.py:transition_state():392] send defer: 4
+2022-02-14 08:21:21,230 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: defer
+2022-02-14 08:21:21,231 INFO    HandlerThread:787 [handler.py:handle_request_defer():154] handle defer: 4
+2022-02-14 08:21:21,231 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: defer
+2022-02-14 08:21:21,231 INFO    SenderThread:787 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-02-14 08:21:21,257 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:21,629 INFO    SenderThread:787 [sender.py:transition_state():392] send defer: 5
+2022-02-14 08:21:21,629 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:21,630 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: defer
+2022-02-14 08:21:21,630 INFO    HandlerThread:787 [handler.py:handle_request_defer():154] handle defer: 5
+2022-02-14 08:21:21,630 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: defer
+2022-02-14 08:21:21,630 INFO    SenderThread:787 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-02-14 08:21:21,631 INFO    SenderThread:787 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-14 08:21:21,733 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:21,859 INFO    Thread-8  :787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:21,859 INFO    SenderThread:787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/output.log
+2022-02-14 08:21:21,859 INFO    SenderThread:787 [dir_watcher.py:_on_file_modified():230] file/dir modified: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/config.yaml
+2022-02-14 08:21:21,860 INFO    SenderThread:787 [dir_watcher.py:finish():313] scan: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files
+2022-02-14 08:21:21,860 INFO    SenderThread:787 [dir_watcher.py:finish():327] scan save: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/output.log output.log
+2022-02-14 08:21:21,860 INFO    SenderThread:787 [dir_watcher.py:finish():327] scan save: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/config.yaml config.yaml
+2022-02-14 08:21:21,861 INFO    SenderThread:787 [dir_watcher.py:finish():327] scan save: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-metadata.json wandb-metadata.json
+2022-02-14 08:21:21,863 INFO    SenderThread:787 [dir_watcher.py:finish():327] scan save: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/model-best.h5 model-best.h5
+2022-02-14 08:21:21,867 INFO    SenderThread:787 [dir_watcher.py:finish():327] scan save: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/requirements.txt requirements.txt
+2022-02-14 08:21:21,867 INFO    SenderThread:787 [dir_watcher.py:finish():327] scan save: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json wandb-summary.json
+2022-02-14 08:21:21,868 INFO    SenderThread:787 [sender.py:transition_state():392] send defer: 6
+2022-02-14 08:21:21,868 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:21,871 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: defer
+2022-02-14 08:21:21,871 INFO    HandlerThread:787 [handler.py:handle_request_defer():154] handle defer: 6
+2022-02-14 08:21:21,875 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: defer
+2022-02-14 08:21:21,875 INFO    SenderThread:787 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-02-14 08:21:21,876 INFO    SenderThread:787 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-14 08:21:21,974 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:21,974 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:22,076 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:22,077 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:22,179 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:22,180 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:22,282 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:22,282 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:22,385 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:22,385 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:22,487 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:22,488 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:22,590 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:22,591 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:22,681 INFO    Thread-16 :787 [upload_job.py:push():137] Uploaded file /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/requirements.txt
+2022-02-14 08:21:22,688 INFO    Thread-14 :787 [upload_job.py:push():137] Uploaded file /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/output.log
+2022-02-14 08:21:22,691 INFO    Thread-17 :787 [upload_job.py:push():137] Uploaded file /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/wandb-summary.json
+2022-02-14 08:21:22,693 INFO    Thread-15 :787 [upload_job.py:push():137] Uploaded file /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/files/config.yaml
+2022-02-14 08:21:22,694 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:22,694 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:22,796 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:22,796 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:22,898 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:22,898 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:23,000 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:23,000 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:23,102 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:23,103 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:23,206 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:23,206 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:23,308 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:23,309 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:23,403 INFO    Thread-13 :787 [upload_job.py:push():137] Uploaded file /tmp/tmpoh4hdr1twandb/2ffqeyq2-model-best.h5
+2022-02-14 08:21:23,411 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:23,411 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:23,513 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:23,514 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:23,604 INFO    Thread-7  :787 [sender.py:transition_state():392] send defer: 7
+2022-02-14 08:21:23,605 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: defer
+2022-02-14 08:21:23,605 INFO    HandlerThread:787 [handler.py:handle_request_defer():154] handle defer: 7
+2022-02-14 08:21:23,605 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: defer
+2022-02-14 08:21:23,605 INFO    SenderThread:787 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-02-14 08:21:23,616 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:23,806 INFO    SenderThread:787 [sender.py:transition_state():392] send defer: 8
+2022-02-14 08:21:23,806 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:23,807 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: defer
+2022-02-14 08:21:23,807 INFO    HandlerThread:787 [handler.py:handle_request_defer():154] handle defer: 8
+2022-02-14 08:21:23,807 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: defer
+2022-02-14 08:21:23,807 INFO    SenderThread:787 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-02-14 08:21:23,808 INFO    SenderThread:787 [sender.py:transition_state():392] send defer: 9
+2022-02-14 08:21:23,808 DEBUG   SenderThread:787 [sender.py:send():235] send: final
+2022-02-14 08:21:23,809 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: defer
+2022-02-14 08:21:23,809 DEBUG   SenderThread:787 [sender.py:send():235] send: footer
+2022-02-14 08:21:23,809 INFO    HandlerThread:787 [handler.py:handle_request_defer():154] handle defer: 9
+2022-02-14 08:21:23,809 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: defer
+2022-02-14 08:21:23,809 INFO    SenderThread:787 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-02-14 08:21:23,908 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-14 08:21:23,909 DEBUG   SenderThread:787 [sender.py:send_request():249] send_request: poll_exit
+2022-02-14 08:21:23,909 INFO    SenderThread:787 [file_pusher.py:join():182] waiting for file pusher
+2022-02-14 08:21:24,526 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: get_summary
+2022-02-14 08:21:24,528 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: sampled_history
+2022-02-14 08:21:24,530 DEBUG   HandlerThread:787 [handler.py:handle_request():131] handle_request: shutdown
+2022-02-14 08:21:24,530 INFO    HandlerThread:787 [handler.py:finish():739] shutting down handler
+2022-02-14 08:21:24,809 INFO    WriterThread:787 [datastore.py:close():281] close: /root/data-science-projects/house-price-prediction/Models/tensorflow/wandb/run-20220214_082031-1bp04nnh/run-1bp04nnh.wandb
+2022-02-14 08:21:25,525 INFO    SenderThread:787 [sender.py:finish():1075] shutting down sender
+2022-02-14 08:21:25,525 INFO    SenderThread:787 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-14 08:21:25,525 INFO    SenderThread:787 [file_pusher.py:join():182] waiting for file pusher
+2022-02-14 08:21:25,527 INFO    MainThread:787 [internal.py:handle_exit():79] Internal process exited
