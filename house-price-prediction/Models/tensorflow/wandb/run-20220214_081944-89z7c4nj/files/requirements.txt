@@ -126,7 +126,7 @@ tomli==2.0.0
 tornado==6.1
 traitlets==5.1.1
 typing-extensions==4.0.1
-urllib3==1.25.8
+urllib3==1.26.5
 wandb==0.12.10
 wcwidth==0.2.5
 webencodings==0.5.1
