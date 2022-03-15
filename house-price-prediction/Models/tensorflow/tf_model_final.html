@@ -14981,7 +14981,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Blending-Predictions">Blending Predictions<a class="anchor-link" href="#Blending-Predictions">&#182;</a></h2><p>So far, I have generated predictions using two decision tree-based models and a neural net-based model.</p>
-<p>Before training and wrangling any data for either model, I isolated 10% of the training data set as a "holdout" set to evaluate different methods of blending predictions. I use three different methods to blend predictions:</p>
+<p>Before training and wrangling any data for either model, I isolated 20% of the training data set as a "holdout" set to evaluate different methods of blending predictions. I use three different methods to blend predictions:</p>
 <ol>
 <li>Take the mean of predictions from XGBoost, LightGBM and the Neural Network model.</li>
 <li>Take a weighted mean of all three, with weights based on how well each model performs on the holdout set.</li>
