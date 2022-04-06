@@ -1,0 +1,15 @@
+tensorflow
+keras
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+lightgbm
+xgboost
+scikit-learn
+hyperopt
+wandb
+jupyter
+ipykernel
+modin
