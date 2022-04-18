@@ -1,6 +1,7 @@
 tensorflow
+tensorflow-recommenders
 keras
-pandas
+pandas == 1.4.1
 numpy
 scipy
 matplotlib
@@ -11,5 +12,7 @@ scikit-learn
 hyperopt
 wandb
 jupyter
+jupyterlab
 ipykernel
 modin
+ray
